@@ -1,0 +1,95 @@
+footer {
+  height: auto;
+  background-color: $verde1;
+
+}
+
+.footer__titulos--size {
+  color: $marron;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/*Categorias*/
+
+#menuCategorias {
+
+
+  h2 {
+    color: $marron;
+  }
+
+  nav {
+    margin-top: 5px;
+
+
+    a {
+      color: $marron;
+      font-size: 15px;
+      padding: 0px;
+    }
+
+
+    ul :hover {
+      color: white;
+    }
+
+  }
+
+}
+
+
+/*Nosotros*/
+#menuNosotros {
+  border-left: 1px solid gray;
+  padding-left: 10px;
+
+  a {
+    color: $marron;
+    font-size: 15px;
+    padding: 0px;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  h2 {
+    color: $marron;
+  }
+
+}
+
+/*Realiza tu consulta*/
+#realizaTuConsulta {
+  border-left: 1px solid gray;
+  padding-left: 10px;
+
+
+  h2 {
+    color: $marron;
+  }
+}
+
+#formularioContacto {
+  width: auto;
+
+  input {
+    border: 1px solid gray;
+
+  }
+
+  input:focus {
+    outline: 1px solid $marron;
+  }
+
+  textarea {
+    border: 1px solid gray;
+
+  }
+
+  textarea:focus {
+    outline: 1px solid $marron;
+  }
+}

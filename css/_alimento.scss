@@ -1,0 +1,25 @@
+#marcasAlimentos {
+
+
+    img {
+        height: 200px;
+        width: 320px;
+    }
+
+    img:hover {
+        border: 2px solid gray;
+    }
+
+}
+
+#tituloNuestrasMarcas {
+    text-align: start;
+
+    h2 {
+        background-color: $verde2;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 220px;
+        color: $marron;
+    }
+}

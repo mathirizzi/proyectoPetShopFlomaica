@@ -1,0 +1,48 @@
+#razasMasComunes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#razasMasComunes div {
+  border: 2px solid black;
+}
+
+
+#tituloDeRazas h2 {
+  font-size: 50px;
+  color: $marron;
+  text-align: center;
+}
+
+
+#tablaDeRazas table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left, #8aa0ab, #77b9da);
+  font-size: 20px;
+  margin: 5px;
+
+}
+
+#tablaDeRazas table tr th {
+  border: 2px solid black;
+}
+
+.razasMasComunes__videos--align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.razasMasComunes__videos--align iframe {
+  margin: 5px;
+  transition: all 2s;
+
+}
+
+.razasMasComunes__videos--align iframe:hover {
+  width: 350px;
+  height: 250px;
+}

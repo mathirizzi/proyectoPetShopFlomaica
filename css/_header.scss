@@ -1,0 +1,77 @@
+header {
+  background-image: url("../imgs/fondoDePagina.jpg");
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#logo img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 60px;
+}
+
+#buscadorPrincipal {
+  display: flex;
+  align-self: center;
+  height: 50px;
+  width: 500px;
+}
+
+
+.menuPrincipal__nav--align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuPrincipal {
+
+  background-color: $colorpiel;
+  border-radius: 25px;
+  box-shadow: 2px 2px rgba(92, 60, 13, 0.384);
+
+  a {
+    color: $marron;
+    font-size: 25px;
+  }
+}
+
+
+#menuPrincipal ul :hover {
+  color: white;
+
+}
+
+#menuPrincipal div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tituloPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#tituloPrincipal h1 {
+  font-size: 40px;
+  color: $marron;
+  transition: all 1s;
+}
+
+#tituloPrincipal h1:hover {
+  font-size: 50px;
+  color: $marron;
+}
+
+#banner {
+  margin: 0px;
+  padding: 0px;
+}

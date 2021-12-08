@@ -1,0 +1,429 @@
+/*Variables*/
+/*Imports*/
+header {
+  background-image: url("../imgs/fondoDePagina.jpg");
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#logo img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 60px;
+}
+
+#buscadorPrincipal {
+  display: flex;
+  align-self: center;
+  height: 50px;
+  width: 500px;
+}
+
+.menuPrincipal__nav--align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuPrincipal {
+  background-color: #e2c4a6;
+  border-radius: 25px;
+  box-shadow: 2px 2px rgba(92, 60, 13, 0.384);
+}
+#menuPrincipal a {
+  color: #8d6742;
+  font-size: 25px;
+}
+
+#menuPrincipal ul :hover {
+  color: white;
+}
+
+#menuPrincipal div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tituloPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tituloPrincipal h1 {
+  font-size: 40px;
+  color: #8d6742;
+  transition: all 1s;
+}
+
+#tituloPrincipal h1:hover {
+  font-size: 50px;
+  color: #8d6742;
+}
+
+#banner {
+  margin: 0px;
+  padding: 0px;
+}
+
+#productosDestacados {
+  height: auto;
+  width: 100%;
+  padding: 0px;
+}
+
+#tituloProductosDestacados {
+  text-align: start;
+}
+#tituloProductosDestacados h2 {
+  background-color: #bcd27d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 270px;
+  color: #8d6742;
+}
+
+.productosDestacados--size {
+  margin: 0px;
+  padding: 0px;
+  border: 2px solid gray;
+}
+.productosDestacados--size h3 {
+  font-size: 10px;
+  text-align: center;
+}
+.productosDestacados--size img {
+  width: 100%;
+  height: 100%;
+}
+
+#razasMasComunes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#razasMasComunes div {
+  border: 2px solid black;
+}
+
+#tituloDeRazas h2 {
+  font-size: 50px;
+  color: #8d6742;
+  text-align: center;
+}
+
+#tablaDeRazas table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left, #8aa0ab, #77b9da);
+  font-size: 20px;
+  margin: 5px;
+}
+
+#tablaDeRazas table tr th {
+  border: 2px solid black;
+}
+
+.razasMasComunes__videos--align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.razasMasComunes__videos--align iframe {
+  margin: 5px;
+  transition: all 2s;
+}
+
+.razasMasComunes__videos--align iframe:hover {
+  width: 350px;
+  height: 250px;
+}
+
+footer {
+  height: auto;
+  background-color: #ddecbd;
+}
+
+.footer__titulos--size {
+  color: #8d6742;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*Categorias*/
+#menuCategorias h2 {
+  color: #8d6742;
+}
+#menuCategorias nav {
+  margin-top: 5px;
+}
+#menuCategorias nav a {
+  color: #8d6742;
+  font-size: 15px;
+  padding: 0px;
+}
+#menuCategorias nav ul :hover {
+  color: white;
+}
+
+/*Nosotros*/
+#menuNosotros {
+  border-left: 1px solid gray;
+  padding-left: 10px;
+}
+#menuNosotros a {
+  color: #8d6742;
+  font-size: 15px;
+  padding: 0px;
+}
+#menuNosotros a:hover {
+  color: white;
+}
+#menuNosotros h2 {
+  color: #8d6742;
+}
+
+/*Realiza tu consulta*/
+#realizaTuConsulta {
+  border-left: 1px solid gray;
+  padding-left: 10px;
+}
+#realizaTuConsulta h2 {
+  color: #8d6742;
+}
+
+#formularioContacto {
+  width: auto;
+}
+#formularioContacto input {
+  border: 1px solid gray;
+}
+#formularioContacto input:focus {
+  outline: 1px solid #8d6742;
+}
+#formularioContacto textarea {
+  border: 1px solid gray;
+}
+#formularioContacto textarea:focus {
+  outline: 1px solid #8d6742;
+}
+
+#tituloNuestrosClientes {
+  text-align: start;
+}
+#tituloNuestrosClientes h2 {
+  background-color: #bcd27d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 270px;
+  color: #8d6742;
+}
+
+#comentariosClientes {
+  width: 20%;
+  height: 350px;
+}
+#comentariosClientes img {
+  border: 1px solid gray;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+#tituloImportanciaPerros {
+  text-align: start;
+}
+#tituloImportanciaPerros h2 {
+  background-color: #bcd27d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 550px;
+  color: #8d6742;
+}
+
+#tituloPerroDelMes {
+  text-align: start;
+}
+#tituloPerroDelMes h2 {
+  background-color: #bcd27d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+  color: #8d6742;
+}
+
+#esperanzaDeVida svg {
+  height: 40px;
+  width: 50px;
+}
+
+#origen svg {
+  width: 50px;
+  height: 40px;
+}
+
+#caracteristicasFisicas svg {
+  width: 50px;
+  height: 40px;
+}
+
+#pesoAdulto svg {
+  width: 50px;
+  height: 40px;
+}
+
+#caracter svg {
+  width: 50px;
+  height: 40px;
+}
+
+#idealPara svg {
+  width: 50px;
+  height: 40px;
+}
+
+#climaRecomendado svg {
+  width: 50px;
+  height: 40px;
+}
+
+#tipoDePelo svg {
+  width: 50px;
+  height: 40px;
+}
+
+#marcasAlimentos img {
+  height: 200px;
+  width: 320px;
+}
+#marcasAlimentos img:hover {
+  border: 2px solid gray;
+}
+
+#tituloNuestrasMarcas {
+  text-align: start;
+}
+#tituloNuestrasMarcas h2 {
+  background-color: #bcd27d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 220px;
+  color: #8d6742;
+}
+
+#tituloVestimenta {
+  text-align: start;
+}
+#tituloVestimenta h2 {
+  background-color: #bcd27d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+  color: #8d6742;
+}
+
+#seccionVestimenta img {
+  height: 275px;
+  width: 200px;
+  transition: all 1s;
+  border: 1px solid gray;
+}
+#seccionVestimenta img:hover {
+  height: 400px;
+  width: 250px;
+  box-shadow: 4px 4px 10px;
+  position: absolute;
+}
+
+#tituloPrincipal h1 {
+  font-size: 40px;
+  color: #8d6742;
+  transition: all 1s;
+}
+
+#tituloPrincipal h1:hover {
+  font-size: 50px;
+  color: #8d6742;
+}
+
+#tituloHigiene {
+  text-align: start;
+}
+#tituloHigiene h2 {
+  background-color: #bcd27d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 110px;
+  color: #8d6742;
+}
+
+#seccionHigiene img {
+  height: 275px;
+  width: 160px;
+  transition: all 1s;
+  border: 1px solid gray;
+}
+#seccionHigiene img:hover {
+  height: 400px;
+  width: 250px;
+  box-shadow: 4px 4px 10px;
+  position: absolute;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+  font-family: "Lobster", cursive;
+}
+
+h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+@keyframes tituloBrillante {
+  0% {
+    color: yellow;
+  }
+  25% {
+    color: #abc247;
+  }
+  50% {
+    color: #f8caca;
+  }
+  75% {
+    color: #abc247;
+  }
+  100% {
+    color: yellow;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

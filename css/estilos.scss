@@ -1,0 +1,70 @@
+/*Variables*/
+$verde1: #ddecbd;
+$verde2: #bcd27d;
+$colorpiel: #e2c4a6;
+$marron: #8d6742;
+
+/*Imports*/
+
+@import "_header";
+@import "_productosDestacados.scss";
+@import "_razasMasComunes.scss";
+@import "_footer.scss";
+@import "_nuestrosClientes.scss";
+@import "_perros.scss";
+@import "_alimento.scss";
+@import "_vestimenta.scss";
+@import "_higiene.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+html {
+  width: 100vw;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+  font-family: "Lobster", cursive;
+}
+
+h3 {
+  font-family: "Overpass", sans-serif;
+}
+
+@keyframes tituloBrillante {
+  0% {
+    color: yellow;
+  }
+
+  25% {
+    color: rgb(171, 194, 71);
+  }
+
+  50% {
+    color: rgb(248, 202, 202);
+  }
+
+  75% {
+    color: rgb(171, 194, 71);
+  }
+
+  100% {
+    color: yellow;
+  }
+}

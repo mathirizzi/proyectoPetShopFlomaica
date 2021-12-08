@@ -1,0 +1,25 @@
+#tituloNuestrosClientes {
+    text-align: start;
+
+    h2 {
+        background-color: $verde2;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 270px;
+        color: $marron;
+    }
+}
+
+#comentariosClientes {
+    width: 20%;
+    height: 350px;
+
+    img {
+        border: 1px solid gray;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+}

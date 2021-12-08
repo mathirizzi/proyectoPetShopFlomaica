@@ -1,0 +1,27 @@
+#tituloHigiene {
+    text-align: start;
+
+    h2 {
+        background-color: $verde2;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 110px;
+        color: $marron;
+    }
+}
+
+#seccionHigiene {
+    img {
+        height: 275px;
+        width: 160px;
+        transition: all 1s;
+        border: 1px solid gray;
+    }
+
+    img:hover {
+        height: 400px;
+        width: 250px;
+        box-shadow: 4px 4px 10px;
+        position: absolute;
+    }
+}

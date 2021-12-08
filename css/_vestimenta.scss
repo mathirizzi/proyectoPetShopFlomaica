@@ -1,0 +1,39 @@
+#tituloVestimenta {
+    text-align: start;
+
+    h2 {
+        background-color: $verde2;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 150px;
+        color: $marron;
+    }
+}
+
+#seccionVestimenta {
+    img {
+        height: 275px;
+        width: 200px;
+        transition: all 1s;
+        border: 1px solid gray;
+    }
+
+    img:hover {
+        height: 400px;
+        width: 250px;
+        box-shadow: 4px 4px 10px;
+        position: absolute;
+    }
+}
+
+#tituloPrincipal h1 {
+    font-size: 40px;
+    color: $marron;
+    transition: all 1s;
+}
+
+#tituloPrincipal h1:hover {
+    font-size: 50px;
+    color: $marron;
+}
+
