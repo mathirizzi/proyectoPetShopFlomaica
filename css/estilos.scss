@@ -21,6 +21,7 @@ $marron: #8d6742;
   padding: 0;
   box-sizing: border-box;
 
+
 }
 
 
@@ -67,4 +68,12 @@ h3 {
   100% {
     color: yellow;
   }
+}
+
+div{
+  border: solid black 2px;
+}
+
+.row{
+  border: 2px solid red;
 }
