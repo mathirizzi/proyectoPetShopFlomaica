@@ -7,7 +7,7 @@ header {
 #logo {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
 }
 
 #logo img {
@@ -20,6 +20,7 @@ header {
 #buscadorPrincipal {
   display: flex;
   align-self: center;
+  justify-content: center;
   height: 50px;
   width: 500px;
 }
@@ -35,7 +36,6 @@ header {
   border-radius: 25px;
   box-shadow: 2px 2px rgba(92, 60, 13, 0.384);
 }
-
 #menuPrincipal a {
   color: #8d6742;
   font-size: 25px;
@@ -82,7 +82,6 @@ header {
 #tituloProductosDestacados {
   text-align: start;
 }
-
 #tituloProductosDestacados h2 {
   background-color: #bcd27d;
   margin-top: 5px;
@@ -95,14 +94,12 @@ header {
   margin: 0px;
   padding: 20px;
 }
-
 .productosDestacados--size h3 {
   font-size: 13px;
   text-align: center;
   border: 2px solid black;
   height: 3vw;
 }
-
 .productosDestacados--size img {
   border: 2px solid gray;
   width: 100%;
@@ -169,17 +166,14 @@ footer {
 #menuCategorias h2 {
   color: #8d6742;
 }
-
 #menuCategorias nav {
   margin-top: 5px;
 }
-
 #menuCategorias nav a {
   color: #8d6742;
   font-size: 15px;
   padding: 0px;
 }
-
 #menuCategorias nav ul :hover {
   color: white;
 }
@@ -189,17 +183,14 @@ footer {
   border-left: 1px solid gray;
   padding-left: 10px;
 }
-
 #menuNosotros a {
   color: #8d6742;
   font-size: 15px;
   padding: 0px;
 }
-
 #menuNosotros a:hover {
   color: white;
 }
-
 #menuNosotros h2 {
   color: #8d6742;
 }
@@ -209,7 +200,6 @@ footer {
   border-left: 1px solid gray;
   padding-left: 10px;
 }
-
 #realizaTuConsulta h2 {
   color: #8d6742;
 }
@@ -217,19 +207,15 @@ footer {
 #formularioContacto {
   width: auto;
 }
-
 #formularioContacto input {
   border: 1px solid gray;
 }
-
 #formularioContacto input:focus {
   outline: 1px solid #8d6742;
 }
-
 #formularioContacto textarea {
   border: 1px solid gray;
 }
-
 #formularioContacto textarea:focus {
   outline: 1px solid #8d6742;
 }
@@ -237,7 +223,6 @@ footer {
 #tituloNuestrosClientes {
   text-align: start;
 }
-
 #tituloNuestrosClientes h2 {
   background-color: #bcd27d;
   margin-top: 5px;
@@ -249,7 +234,6 @@ footer {
 #comentariosClientes {
   height: auto;
 }
-
 #comentariosClientes img {
   border: 1px solid gray;
   -moz-border-radius: 50%;
@@ -262,7 +246,6 @@ footer {
 #tituloImportanciaPerros {
   text-align: start;
 }
-
 #tituloImportanciaPerros h2 {
   background-color: #bcd27d;
   margin-top: 5px;
@@ -274,7 +257,6 @@ footer {
 #tituloPerroDelMes {
   text-align: start;
 }
-
 #tituloPerroDelMes h2 {
   background-color: #bcd27d;
   margin-top: 5px;
@@ -327,7 +309,6 @@ footer {
   height: 200px;
   width: 320px;
 }
-
 #marcasAlimentos img:hover {
   border: 2px solid gray;
 }
@@ -335,7 +316,6 @@ footer {
 #tituloNuestrasMarcas {
   text-align: start;
 }
-
 #tituloNuestrasMarcas h2 {
   background-color: #bcd27d;
   margin-top: 5px;
@@ -347,7 +327,6 @@ footer {
 #tituloVestimenta {
   text-align: start;
 }
-
 #tituloVestimenta h2 {
   background-color: #bcd27d;
   margin-top: 5px;
@@ -362,7 +341,6 @@ footer {
   transition: all 1s;
   border: 1px solid gray;
 }
-
 #seccionVestimenta img:hover {
   height: 400px;
   width: 250px;
@@ -384,7 +362,6 @@ footer {
 #tituloHigiene {
   text-align: start;
 }
-
 #tituloHigiene h2 {
   background-color: #bcd27d;
   margin-top: 5px;
@@ -399,7 +376,6 @@ footer {
   transition: all 1s;
   border: 1px solid gray;
 }
-
 #seccionHigiene img:hover {
   height: 400px;
   width: 250px;
@@ -438,30 +414,18 @@ h3 {
   0% {
     color: yellow;
   }
-
   25% {
     color: #abc247;
   }
-
   50% {
     color: #f8caca;
   }
-
   75% {
     color: #abc247;
   }
-
   100% {
     color: yellow;
   }
-}
-
-div {
-  border: solid black 2px;
-}
-
-.row {
-  border: 2px solid red;
 }
 
 /*# sourceMappingURL=estilos.css.map */
