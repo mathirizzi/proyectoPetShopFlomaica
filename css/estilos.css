@@ -25,13 +25,9 @@ header {
   width: 500px;
 }
 
-.menuPrincipal__nav--align {
+#menuPrincipal {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-#menuPrincipal {
   background-color: #e2c4a6;
   border-radius: 25px;
   box-shadow: 2px 2px rgba(92, 60, 13, 0.384);
@@ -45,10 +41,11 @@ header {
   color: white;
 }
 
-#menuPrincipal div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 15%;
 }
 
 #tituloPrincipal {
@@ -396,6 +393,11 @@ html {
 body {
   width: 100vw;
   overflow-x: hidden;
+  padding: 16px;
+}
+
+.sticky + body {
+  padding-top: 60px;
 }
 
 h1 {

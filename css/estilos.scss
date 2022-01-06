@@ -33,7 +33,12 @@ html {
 body {
   width: 100vw;
   overflow-x: hidden;
+  padding: 16px;
 
+}
+
+.sticky + body {
+  padding-top: 60px;
 }
 
 h1 {
